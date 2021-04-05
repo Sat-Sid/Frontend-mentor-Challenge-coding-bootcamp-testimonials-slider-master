@@ -1,0 +1,213 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.04rem;
+  line-height: 1.4;
+}
+
+.mainContainer {
+  position: relative;
+  width: 1440px;
+}
+
+.contentImgWrap {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+}
+
+.content {
+  position: relative;
+  margin-left: 160px;
+  width: 630px;
+  color: #202046;
+}
+
+.quotes-img-div {
+  position: absolute;
+  top: 163px;
+  left: 97px;
+}
+
+.textContent {
+  margin-top: 230px;
+  margin-bottom: 30px;
+  width: 653px;
+}
+
+.name-desg p {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.desg {
+  color: #babacf;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+/* Bg Images & Profile */
+.bgImgWrap {
+  margin-left: -120px;
+}
+
+.illbg-profileimg {
+  position: relative;
+  height: 650px;
+  width: 700px;
+}
+
+.illbg-img {
+  position: absolute;
+}
+
+.profile-imgs {
+  position: absolute;
+  top: 62px;
+  left: 70px;
+}
+
+.profileimg {
+  border-radius: 5px;
+  /* box-shadow: 0 10px 25px 1px #babacf; */
+}
+
+.buttonDiv {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  left: 130px;
+}
+
+.buttons {
+  background-color: #fff;
+  border: 0;
+  border-radius: 50px;
+  width: 115px;
+  height: 57px;
+  padding: 0;
+  outline: 0;
+}
+
+.prevButtonDiv {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nextButtonDiv {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.shadow {
+  background-color: transparent;
+  height: 35px;
+  width: 300px;
+  position: absolute;
+  bottom: 55px;
+  left: 90px;
+  z-index: -1;
+  box-shadow: 0 30px 55px 2px #babacf;
+}
+
+.bg-curveidiv {
+  margin-bottom: -20px;
+}
+
+.bg-curve-img {
+  margin-bottom: -5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+  color: hsl(228, 45%, 44%);
+}
+
+/* JS on click action */
+.jsdisplayOn {
+  display: block;
+}
+
+.jsdisplayOff {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  body {
+    text-align: center;
+  }
+
+  .mainContainer {
+    width: auto;
+  }
+
+  .contentImgWrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bgImgWrap {
+    margin: 0;
+  }
+
+  .buttonDiv {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+  }
+
+  .buttons {
+    height: 67px;
+    width: 125px;
+  }
+
+  .content {
+    margin: 0 0 0 18px;
+  }
+
+  .textContent {
+    margin: 120px auto 40px;
+    width: 580px;
+  }
+
+  .quotes-img-div {
+    position: absolute;
+    top: 60px;
+    left: 250px;
+  }
+
+  .desg {
+    display: block;
+  }
+
+  .name-desg p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+
+  .attribution {
+    margin-left: 220px;
+    width: 320px;
+  }
+}
+
+/* Ref
+
+	#202046 	#babacf  #3e52a3
+
+font-family: 'Inter', sans-serif;
+*/
